@@ -2,15 +2,15 @@
 
 export default function Navbar(){
     return (
-       <nav className="bg-red-500">
+       <nav className="bg-red-500 w-full flex justify-between items-center p-5">
          <div>
-            <h1>Design</h1>
+            <h1 className="text-white text-xl">Design</h1>
          </div>
-         <ul>
-            <li><a href="">Sign up</a></li>
-            <li><a href="">Login</a></li>
-            <li><a href="">Calendal</a></li>
-            <li><a href="">Calculater</a></li>
+         <ul className="flex justify-center items-center gp-3">
+            <li><a href="" className="text-white pl-3">Sign up</a></li>
+            <li><a href="" className="text-white pl-3">Login</a></li>
+            <li><a href="" className="text-white pl-3">Calendal</a></li>
+            <li><a href="" className="text-white pl-3">Calculater</a></li>
             
          </ul>
        </nav>
